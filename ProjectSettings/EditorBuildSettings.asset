@@ -9,11 +9,15 @@ EditorBuildSettings:
     path: Assets/Landmarks/Scenes/demo/demo_SimpleSample_50x50.unity
     guid: 97d0b3b00eb92456393335546d78e585
   m_configObjects:
-    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 1de6e19b8b3f0dd47bd1227dbbbe2a39,
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 95596e7c1d05e3340ab0fba8572f51db,
+      type: 2}
+    Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 1b3d5a13711d6fa40934d81f4e230784,
       type: 2}
     com.unity.addressableassets: {fileID: 11400000, guid: 4bca43c939d6142679246b969d5cc6b2,
       type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 69208d6714e1d3f40bdc661476569532,
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3ae17b64bf059cd4cb4abf47058f8071,
       type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: f638717ecc45fed459a40c87fa5ca562,
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ade63d6f1bd177241b92c4af36c2d2b6,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: 9b617dfbbba03ef46bdff41e8515b52f,
       type: 2}
