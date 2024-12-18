@@ -9,7 +9,7 @@ public class SteamVR_ToggleHand_mjsa : MonoBehaviour
     public float waitForSecs = 3.0f; // how long do the keystrokes need to be held?
 
     private Hand thisHand;
-    public SteamVR_Action_Boolean button = SteamVR_Actions.landmarks.GripButton;
+    // public SteamVR_Action_Boolean button = SteamVR_Actions.landmarks.TriggerButton;
     private float timerStart;
     public bool defaultHandVis = true;
     public bool defaultControllerVis = true;
@@ -39,7 +39,7 @@ public class SteamVR_ToggleHand_mjsa : MonoBehaviour
             }
         }
 
-        if (defaultsSaved && button.GetState(thisHand.handType))
+        if (defaultsSaved)
         {
             if (Time.time - timerStart > waitForSecs)
             {
